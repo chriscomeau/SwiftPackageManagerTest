@@ -1,4 +1,4 @@
-# SwiftPackageManagerTest
+# Swift Package Manager Test
 
 
 **🚧 The app is currently in development 🚧**
@@ -14,13 +14,14 @@ Swift Package Manager Test, creating a command line application, based on the [R
 
 * To compile:
  
-	```
+```
 cd Flag
 swift build
 ```
+
 * To Run:
  
-	```
+```
 cd .build/debug/Flag
 ```
 
