@@ -3,7 +3,7 @@
 
 **🚧 The app is currently in development 🚧**
 
-Swift Package Manager Test
+Swift Package Manager Test, creating a command line application, based on the [Ray Wenderlich tutorial](https://www.raywenderlich.com/750-an-introduction-to-the-swift-package-manager).
 
 
 ## Building and Running
@@ -12,34 +12,30 @@ Swift Package Manager Test
 **In the Terminal:**
 
 
-* ... 
-         
-        $ ...
-
-
-* Open `SwiftPackageManagerTest.xcodeproj` in Xcode.
+* To compile:
+ 
+	```
+cd Flag
+swift build
+```
+* To Run:
+ 
+	```
+cd .build/debug/Flag
+```
 
 
 ## Features
 
-- [ ] Swift 5.0
-- [ ] Swift Package Manager
+- [X] Swift Package Manager
+- [X] Swift 5.0
 
-
-## Frameworks
-
-- ...
 
  
 ## Requirements
 
-- iOS 11.0+ 
-- Xcode 10.2+
 - Swift 5.0+
 
-## Screenshots
-
-...
 
 
 ## Contact
