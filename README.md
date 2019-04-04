@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/language-Swift%205.0-green.svg) [![Twitter](https://img.shields.io/badge/twitter-@chriscomeau-blue.svg)](http://twitter.com/chriscomeau)
+
 # Swift Package Manager Test
 
 
