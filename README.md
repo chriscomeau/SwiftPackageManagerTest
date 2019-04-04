@@ -13,25 +13,41 @@ Swift Package Manager Test, creating a command line application, based on the [R
 
 **In the Terminal:**
 
-* To update dependencies:
+Go to project folder:
+
+```
+cd Website
+```
+
+To update dependencies:
 (also does a `swift build` and `swift package update`)
 
 ```
-cd Website
 swift package generate-xcodeproj
 ```
 
-* To compile:
+To compile:
  
 ```
-cd Website
 swift build
 ```
 
-* To Run:
+To Run:
  
 ```
-Website/.build/debug/./Website
+swift run Website 
+```
+
+Then access the running local server:
+
+```
+localhost:8080
+``` 
+
+It should output something similar to this:
+
+```
+"Cutting corners"
 ```
 
 
