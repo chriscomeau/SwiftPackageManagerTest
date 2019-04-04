@@ -13,7 +13,8 @@ Swift Package Manager Test, creating a command line application, based on the [R
 
 **In the Terminal:**
 
-* Top update dependencies:
+* To update dependencies:
+(also does a `swift build` and `swift package update`)
 
 ```
 cd Website
