@@ -1,7 +1,7 @@
 import XCTest
 
-import FlagTests
+import WebsiteTests
 
 var tests = [XCTestCaseEntry]()
-tests += FlagTests.allTests()
+tests += WebsiteTests.allTests()
 XCTMain(tests)

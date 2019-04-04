@@ -5,7 +5,7 @@
 
 **🚧 The app is currently in development 🚧**
 
-Swift Package Manager Test, creating a command line application, based on the [Ray Wenderlich tutorial](https://www.raywenderlich.com/750-an-introduction-to-the-swift-package-manager).
+Swift Package Manager Test, creating a command line application, based on the [Ray Wenderlich tutorial](https://www.raywenderlich.com/1993018-an-introduction-to--package-manager).
 
 
 ## Building and Running
@@ -13,18 +13,24 @@ Swift Package Manager Test, creating a command line application, based on the [R
 
 **In the Terminal:**
 
+* Top update dependencies:
+
+```
+cd Website
+swift package generate-xcodeproj
+```
 
 * To compile:
  
 ```
-cd Flag
+cd Website
 swift build
 ```
 
 * To Run:
  
 ```
-cd .build/debug/Flag
+Website/.build/debug/./Website
 ```
 
 
@@ -40,6 +46,8 @@ cd .build/debug/Flag
 - Swift 5.0+
 
 
+## Screenshots
+...
 
 ## Contact
 
